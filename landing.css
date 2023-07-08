@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #22181C;
+
+}
+
+header {
+    background-color: #22181C;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+
+}
+
+header p {
+    font-size: 24px;
+
+}
+
+.logo {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 28px;
+    padding-left: 130px;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: black 1px 0 10px;
+}
+
+span {
+    color: red;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 16px;
+    padding-top: 18px;
+    padding-right: 130px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+    letter-spacing: 2px;
+
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #FCEDDA;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+nav ul li a:hover {
+    color: red;
+
+}
+
+
+
+.hero {
+    color: white;
+    padding: 10px;
+    display: flex;
+
+}
+
+.intro {
+    text-align: center;
+    width: 90%;
+    height: 550px;
+    background: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(./img.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 60px;
+    border-radius: 30px;
+
+}
+
+.hero h1 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: black 1px 0 10px;
+}
+
+.content {
+    margin-top: 225px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #EF3340;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    transform: scale(1.09);
+}
+
+
+.services {
+    text-align: center;
+    padding: 50px;
+
+}
+
+.services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+    display: block;
+}
+
+.container {
+    display: flex;
+}
+
+.service {
+    padding: 40px;
+    border-radius: 30px;
+    background: #ac2920;
+    margin: 0 10px;
+    font-size: 18px;
+    font-family: 'Catamaran', sans-serif;
+    transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.service:hover {
+    transform: scale(1.05);
+}
+
+.services {
+    letter-spacing: 3px;
+    color: white;
+
+}
+
+.service p {
+    letter-spacing: 2px;
+    color: white;
+}
+
+.services h2 {
+    letter-spacing: 2px;
+    color: white;
+}
+
+.about {
+
+    color: white;
+    padding: 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 550px 550px;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.self {
+
+    margin-left: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #ac2920;
+}
+
+.end {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width:768px) {
+    .nav {
+        text-align: center;
+    }
+
+    .intro {
+        padding: 0;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .container {
+        display: block;
+
+    }
+
+    .service {
+        margin-bottom: 10px;
+    }
+
+    .service:hover {
+        transform: none;
+    }
+
+    header {
+        display: block;
+
+    }
+}
